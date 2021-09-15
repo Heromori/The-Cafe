@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>The Cafe</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body onload="checkCookie()">
+
+
+  <nav class="header">
+
+    <ul class="menu1">
+      <li> <a href="#HOME">HOME</a></li>
+      <li> <a href="#ABOUT">ABOUT</a></li>
+      <li> <a href="#MENU">MENU</a></li>
+      <li> <a href="#WHERE">WHERE</a></li>
+    </ul>
+  </nav>
+
+  <header class="thecafe" id="HOME">
+    <div class="text_image">
+      <h1>the<br>Cafe</h1>
+    </div>
+    <div class="text_image_end">
+      <p class="bottom-left">open from 6am to 5pm</p>
+      <p>15 Adr Street, 50015</p>
+    </div>
+  </header>
+
+
+
+  <div class="paragraphe">
+
+
+
+    <h2 class="titre-ajustement" id="ABOUT">
+      <span class="titres-padding"> ABOUT THE CAFE </span> </h2>
+      <p>
+        The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <br>
+        <br>
+        In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.
+      </p>
+
+      <p class="citation">
+        <i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i> <br> <br>
+        Chef, Coffeeist and Owner: Liam Brown
+
+      </p>
+
+      <div>
+        <img src="images\coffeeshop.jpg" alt="coffeshop">
+
+
+        <p>
+          <strong>Opening hours : </strong> Everyday from 6am to 5pm. <br>
+          <strong>Adress :</strong> 15 Adr street, 5015, NY
+        </p>
+      </div>
+
+      <h2 class="titre-ajustement" id="MENU"> <span class="titres-padding">THE MENU</span></h2>
+
+      <div class="nourriture">
+
+
+        <div class="menualtern">
+          <span id="eat" class="linkeat">Eat</span>
+          <span id="drink" class="linkdrink">Drink</span>
+        </div>
+
+        <div id="drink2">
+          <p>
+            <span class="title-menu">Coffee</span>
+            <br />
+            Regular coffee 2.50
+          </p>
+
+          <p>
+            <span class="title-menu">Chocolato</span>
+            <br />
+            Chocolate espresso with milk 4.50
+          </p>
+
+          <p>
+            <span class="title-menu">Corretto</span>
+            <br />
+            Whiskey and coffee 5.00
+          </p>
+
+          <p>
+            <span class="title-menu">Iced tea</span>
+            <br />
+            Hot tea, except not hot 3.00
+          </p>
+
+          <p>
+            <span class="title-menu">Soda</span>
+            <br />
+            Coke, Sprite, Fanta, etc. 2.50
+          </p>
+
+        </div>
+        <div id="eat2">
+
+          <p>
+            <span class="title-menu">Bread Basket</span>
+            <br />
+            Assortment of fresh baked fruit breads and muffins 5.50
+          </p>
+
+          <p>
+            <span class="title-menu">Honey Almond Granola with Fruits</span>
+            <br />
+            Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+          </p>
+
+          <p>
+            <span class="title-menu">Belgian Waffle</span>
+            <br />
+            Vanilla flavored batter with malted flour 7.50
+          </p>
+
+          <p>
+            <span class="title-menu">Scrambled eggs</span>
+            <br />
+            Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+          </p>
+
+          <p>
+            <span class="title-menu">Blueberry Pancakes</span>
+            <br />
+            With syrup, butter and lots of berries 8.50
+          </p>
+        </div>
+      </div>
+
+
+      <img src="images\cafe_top_view.jpg" alt="topview">
+
+      <h2 class="titre-ajustement" id="WHERE"><span class="titres-padding"> WHERE TO FIND US </span> </h2>
+
+      <div>
+        <p>Find us at some address at some place.</p>
+      </div>
+
+      <img src="images\map.jpg" alt="drone">
+
+
+
+      <p> <span class="fiy"> FYI!</span>
+        We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+        <br>
+        <br>
+        <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+
+
+
+        <form method="get" action="traitement.php">
+          <div>
+            <input type="text"  name="nom"  id="nom" placeholder="Name">
+          </div>
+
+          <div>
+            <input type="number"  name="people"  id="people" placeholder="How many people">
+          </div>
+
+          <div>
+            <input type="date" placeholder="date" required name="date" id="date">
+          </div>
+
+          <div>
+            <input type="time"  id="time">
+          </div>
+
+          <div>
+    <!--        <input type="date" placeholder="birthday" required name="date" id="birthday">
+          </div>
+-->
+          <div>
+            <input type="text"  name="message"  id="message" placeholder="Message">
+          </div>
+      </form>
+
+          <div class="button">
+            <button id="button" type="button" >SEND RESERVATION</button>
+          </div>
+
+            <span id="txtHint2"> </span>
+
+          <div>
+            <button type="button" onclick="loadDoc()">AJAX BOOOM</button>
+          </div>
+
+          <button type="button" onclick="showReservation()"> Les reservations</button>
+
+          <table id="demo"></table>
+
+
+          <span id="txtHint"> </span>
+
+<p>First name: <input type="text" onkeyup="showCustomer(this.value)"></p>
+
+          <div id="reponseOui">
+            <span>Merci pour votre inscription</span>
+          </div>
+
+
+          <div id="reponseNon">
+            <p> Vous n'avez pas plus de 13 ans </p><span>vous ne pouvez pas vous inscrire sur ce site</span>
+          </div>
+
+          <br>
+          <br>
+        </div>
+
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p class="cookie_texte">ACCEPTE LES COOKIES !!!! >:( </p>
+
+          <div class="bouton_cookie">
+
+            <button id="accepte" type="button" name="button">Accepte</button>
+
+            <button id="decline" type="button" name="button">Decline</button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </body>
+
+    <script src="js/menu.js"></script>
+  <!--  <script src="js/contact.js"></script> -->
+    <script src="js/modal.js"></script>
+    <script src="js/ajax.js" charset="utf-8"></script>
+ <script src="js/showCustomer.js"></script>
+    <script src="js/reservation.js"></script>
+    <script src="js/showReservation.js"></script>
+    <!--  <script src="js/cookie.js"></script> -->
+
+    </html>

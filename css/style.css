@@ -1,0 +1,241 @@
+
+
+body, input, button{
+  margin: 0px;
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.header{
+  margin-top: 0px;
+  position: fixed;
+  width: 100%;
+  top :0;
+}
+
+.menu1{
+  background-color: black;
+  margin-top: 0px;
+  padding: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.thecafe{
+  margin-top: 0px;
+  height: 680px;
+  background-image: url("../images/photo_cafe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text_image{
+  position: relative;
+color: white;
+top: 35%;
+text-align: center;
+font-size: 40px;
+}
+
+.text_image_end {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 370px;
+  padding: 15px;
+}
+
+.bottom-left {
+  background-color: black;
+  padding: 5px;
+}
+
+.themenu a{
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+
+.paragraphe {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+}
+
+
+
+
+
+.citation{
+  border-left: 6px solid #CCCC;
+  background-color: #F1F1F1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.titre-ajustement{
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.titres-padding{
+  background-color: black;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.nourriture{
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.menualtern {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 8px;
+}
+
+.linkeat {
+  background-color: grey;
+  color: white;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.linkdrink {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#eat2 {
+  padding: 12px;
+}
+
+#drink2 {
+  display: none;
+  padding: 12px;
+}
+
+.fiy {
+  background-color: black;
+  color: white;
+  padding-left: 3px;
+  padding-right: 2px;
+}
+
+img {
+  text-align: center;
+  width: 100%;
+  border-style: none;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 20px;
+  border: none;
+}
+
+button:hover {
+  background-color: grey;
+  overflow: visible;
+  color: black;
+}
+
+#reponseNon{
+  color: red;
+}
+
+input{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .paragraphe{
+    width: 95%
+  }
+}
+
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cookie_texte{
+text-align: center;
+}
+
+.bouton_cookie{
+  display: flex;
+  justify-content: space-between;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -13,6 +13,7 @@ body, input, button{
   position: fixed;
   width: 100%;
   top :0;
+  z-index: 1;
 }
 
 .menu1{
@@ -132,6 +133,10 @@ h2 {
   padding-right: 80px;
   padding-top: 6px;
   padding-bottom: 6px;
+}
+
+#map {
+  height: 20em;
 }
 
 #eat2 {

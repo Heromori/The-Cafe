@@ -193,9 +193,19 @@ input{
 }
 
 @media screen and (min-width: 200px) and (max-width: 640px) {
+
+
+  .thecafe{
+    margin-top: 0px;
+    height: 400px;
+    background-image: url("../images/photo_cafe_mobile.png");
+
+  }
+
   .paragraphe{
     width: 95%
   }
+
 }
 
 .modal {

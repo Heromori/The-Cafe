@@ -1,4 +1,4 @@
-document.getElementById("button").onclick = reservation
+document.getElementById("button").onclick = reservation;
 
 var contact = []
 
@@ -20,3 +20,4 @@ function reservation() {
   xhttp.open("GET", "reservation_check.php?q="+contact);
   xhttp.send();
 }
+
